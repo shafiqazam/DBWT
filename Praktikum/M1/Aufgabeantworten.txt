@@ -1,0 +1,18 @@
+Header in der Anfrage
+
+Request URL: https://www.fh-aachen.de/hochschule/bibliothek/
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 149.201.122.100:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Antwort ( HTTP Response )
+
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Language: de
+Content-Type: text/html;charset=utf-8
+Date: Fri, 16 Oct 2020 14:09:08 GMT
+Server: fhacDVZ/1.4.3 (fhacOS/MintFeet)
+Strict-Transport-Security: max-age=31536000
+Transfer-Encoding: chunked
