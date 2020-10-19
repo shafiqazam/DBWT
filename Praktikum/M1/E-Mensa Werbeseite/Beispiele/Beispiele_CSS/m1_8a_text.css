@@ -1,0 +1,21 @@
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+
+}
+
+.untertitel {
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.beilage {
+    color: green;
+    font-weight: initial;
+}
+
+.haupt {
+    font-weight: bold;
+}

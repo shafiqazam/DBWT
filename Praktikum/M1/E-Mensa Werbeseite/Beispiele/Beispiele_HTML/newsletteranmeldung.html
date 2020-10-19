@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="../Beispiele_CSS/newsletteranmeldung.css">
+</head>
+<body>
+<form action="/formdata.html" method="post" id="anmeldung-form">
+    <fieldset>
+        <legend>Anmeldung</legend>
+        Anrede
+        <div>
+            <input type="radio" id="frau" value="frau" name="anrede">
+            <label for="frau">Frau</label>
+        </div>
+        <div>
+            <input type="radio" id="herr" value="herr" name="anrede">
+            <label for="herr">Herr</label>
+        </div>
+        Vorname* <br>
+        <input type="text" name="vorname" placeholder="Bitte geben Sie Ihren Vornamen ein" required> <br>
+        Nachname* <br>
+        <input type="text" name="nachname" placeholder="Bitte geben Sie Ihren Nachnamen ein" required> <br>
+        E-Mail* <br>
+        <input type="email" name="email" placeholder="Bitte geben Sie Ihre E-Mail ein" required> <br>
+        Benachrichtigungsinterval <br>
+        <input type="number" id="b-intervall" name="nachricht-intervall" placeholder="Woche" min="1"> <br>
+        <input type="checkbox" name="datenschutz" required> Datenschutzhinweise gelesen <br>
+        <input type="submit" value="Abschicken" id="submit-btn"> <br>
+        *) Eingaben sind Pflicht
+    </fieldset>
+</form>
+</body>
+</html>

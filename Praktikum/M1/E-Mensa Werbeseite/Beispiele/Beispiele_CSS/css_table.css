@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: coral;
+}
+
+
+table {
+    border-style: solid;
+    border-color: lightsalmon;
+    margin: auto 30%;
+}
+
+thead, .orange-row {
+    background-color: peachpuff;
+}
+
+.beispiel {
+    line-height: 1.75;
+}
+
+.center {
+    text-align: center;
+}
+
+.line  {
+    border-color: lightsalmon;
+}
+
+footer > ul {
+    padding: 0;
+    position: absolute;
+    right: 0
+}
+
+footer li {
+    width: auto;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.bar {
+    border-left: 2px solid lightsalmon;
+}

@@ -1,0 +1,110 @@
+body {
+    font-family: Verdana;
+}
+
+body div {
+    padding: 3% 15%;
+}
+
+/* Navbar */
+
+.nav-bar {
+    padding-left: 4%;
+}
+
+.nav-bar a {
+    margin-left: 2%;
+    color: turquoise;
+}
+
+/*ankündigung*/
+
+#ankuendigung p {
+    width: 75%;
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+
+/*speisen*/
+
+table{
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.preis {
+    text-align: center;
+}
+
+/* Zahlen */
+.stats h3 {
+    display: inline;
+    margin-right: 2%;
+}
+
+/*Kontakt*/
+
+.three-question {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.form-req {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.form-req input {
+    width: 150px;
+}
+
+.form-req select {
+    width: 150px;
+}
+
+#submit {
+    margin-left: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+/*wichtig*/
+
+#wichtig ul {
+    margin: 5% 10%
+}
+
+/*final wort*/
+#final-wort {
+    padding-top: 0;
+    text-align: center;
+}
+
+/*footer*/
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+#footer > ul {
+    padding: 0;
+    margin: 10px 0;
+}
+
+#footer li {
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.bar {
+    border-right: 2px solid black;
+}

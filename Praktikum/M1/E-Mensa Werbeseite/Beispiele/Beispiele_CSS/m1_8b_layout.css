@@ -1,0 +1,30 @@
+.rectangle {
+    height: 100px;
+}
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.third {
+    background-color: green;
+}
+
+#grid-container1 {
+    display: grid;
+    grid-gap: 15px;
+}
+
+#grid-container2 {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+}
+
+#grid-container3 {
+    display: grid;
+    grid-template-columns: auto 30% auto;
+}
