@@ -3,7 +3,7 @@ body {
 }
 
 body div {
-    padding: 3% 15%;
+    margin: 6% 15%;
 }
 
 /* Navbar */
@@ -15,6 +15,13 @@ body div {
 .nav-bar a {
     margin-left: 2%;
     color: turquoise;
+}
+/*hauptbild*/
+
+#hauptbild {
+    border: black 1px solid;
+    width: 54%;
+    height: 200px;
 }
 
 /*ankündigung*/
@@ -40,9 +47,18 @@ td {
 }
 
 /* Zahlen */
+#zahlen {
+    text-align: center;
+}
+
+#zahlen > h2 {
+    margin-bottom: 40px;
+    text-align: initial;
+}
+
 .stats h3 {
     display: inline;
-    margin-right: 2%;
+    margin-right: 10%;
 }
 
 /*Kontakt*/
@@ -76,8 +92,15 @@ td {
 
 /*wichtig*/
 
+#wichtig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 #wichtig ul {
-    margin: 5% 10%
+    margin: 30px auto;
 }
 
 /*final wort*/
@@ -104,7 +127,6 @@ td {
     text-align: center;
     padding: 0 20px;
 }
-
-.bar {
+#footer li:nth-child(odd) {
     border-right: 2px solid black;
 }
