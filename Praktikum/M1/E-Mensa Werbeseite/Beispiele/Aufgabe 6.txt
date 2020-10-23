@@ -73,14 +73,3 @@ nachname: Azam
 email: shafiq@example.com
 nachricht-intervall: 2
 datenschutz: on
-
-Aufgabe 7
-
-m1_ersteSeite.html
-Warning - Es sollte ein <lang>-Tag geben
-
-
-m1_8a_text.html
-
-Error - Es gibt kein <title>-Tag im Header
-Warning - Es sollte ein <lang> geben
