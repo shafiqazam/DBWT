@@ -1,10 +1,8 @@
-
 <!--
 - Praktikum DBWT. Autoren:
 - Marco, Ermes Catulo,
 - Muhammad Shafiq bin, Bazalanul Azam, 3241745
 -->
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -13,88 +11,101 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav id="menu">
-        <img src="" alt="E-Mensa Logo">
-        <span class="nav-bar">
+    <div class="grid">
+        <div class="left-container">
+            <img src="" alt="E-Mensa Logo">
+        </div>
+        <div>
+            <nav id="menu">
+                <span class="nav-bar">
             <a href="#ankuendigung">Ankündigung</a>
             <a href="#speisen">Speisen</a>
             <a href="#zahlen">Zahlen</a>
             <a href="#kontakt">Kontakt</a>
             <a href="#wichtig">Wichtig für uns</a>
         </span>
-    </nav>
+            </nav>
+        </div>
+        <div class="right-container"></div>
+    </div>
     <hr>
-    <div id="hauptbild">
-        <img src="" alt="Platzhalter fuer ein Bild">
-    </div>
-    <div id="ankuendigung">
-        <h2>Bald gibt es Essen auch online ;)</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    </div>
-    <div id="speisen">
-        <h2>Köstlichkeiten, die Sie erwarten</h2>
-        <table>
-            <thead>
-                <td></td>
-                <td>Preis intern</td>
-                <td>Preis extern</td>
-            </thead>
-            <tr>
-                <td>Rindfleish mit Bambus, Kaiserschoten und rotem Paprika,dazu Mie Nudeln</td>
-                <td class="preis">3,50</td>
-                <td class="preis">6,20</td>
-            </tr>
-            <tr>
-                <td>Spinatrisotto mit kleinen Samosateigecken und gemischter Salat</td>
-                <td class="preis">2,90</td>
-                <td class="preis">5,30</td>
-            </tr>
-        </table>
-    </div>
-    <div id="zahlen">
-        <h2>E-Mensa in Zahlen</h2>
-        <span class="stats">
+    <div class="grid">
+        <div class="left-container"></div>
+        <div  class="main-grid">
+            <div id="hauptbild">
+                <img src="" alt="Platzhalter fuer ein Bild">
+            </div>
+            <div id="ankuendigung">
+                <h2>Bald gibt es Essen auch online ;)</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="speisen">
+                <h2>Köstlichkeiten, die Sie erwarten</h2>
+                <table>
+                    <thead>
+                    <td></td>
+                    <td>Preis intern</td>
+                    <td>Preis extern</td>
+                    </thead>
+                    <tr>
+                        <td>Rindfleish mit Bambus, Kaiserschoten und rotem Paprika,dazu Mie Nudeln</td>
+                        <td class="preis">3,50</td>
+                        <td class="preis">6,20</td>
+                    </tr>
+                    <tr>
+                        <td>Spinatrisotto mit kleinen Samosateigecken und gemischter Salat</td>
+                        <td class="preis">2,90</td>
+                        <td class="preis">5,30</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="zahlen">
+                <h2>E-Mensa in Zahlen</h2>
+                <span class="stats">
             <h3> # Besuche</h3>
             <h3># Anmeldung zum Newsletter</h3>
             <h3># Speisen</h3>
         </span>
-    </div>
-    <div id="kontakt">
-        <h2>Interesse geweckt? Wir informieren Sie!</h2>
-        <form>
-            <div class="three-question">
+            </div>
+            <div id="kontakt">
+                <h2>Interesse geweckt? Wir informieren Sie!</h2>
+                <form>
+                    <div class="three-question">
                 <span class="form-req">
                 <label for="name">Ihr Name:</label>
                 <input type="text" placeholder="Vorname" name="Name" id="name">
             </span>
-                <span class="form-req">
+                        <span class="form-req">
                 <label for="email">Ihr E-Mail:</label>
                 <input type="email" name="Email-Adresse" id="email">
             </span>
-                <span class="form-req">
+                        <span class="form-req">
                 <label for="newsletter">Newsletter bitte in:</label>
                 <select type="option" name="Sprache" id="newsletter">
                     <option value="de">Deutsch</option>
                     <option value="en">Englisch</option>
                 </select>
             </span>
+                    </div>
+                    <br>
+                    <input type="checkbox" name="Datenschutz" id="datenschutz">
+                    <label for="datenschutz">Den Datenschutzbestimmmungen stimme ich zu</label>
+                    <input type="submit" value="Zum Newsletter anmelden" id="submit" disabled>
+                </form>
             </div>
-            <br>
-                <input type="checkbox" name="Datenschutz" id="datenschutz">
-                <label for="datenschutz">Den Datenschutzbestimmmungen stimme ich zu</label>
-            <input type="submit" value="Zum Newsletter anmelden" id="submit" disabled>
-        </form>
-    </div>
-    <div id="wichtig">
-        <h2>Das ist uns wichtig</h2>
-        <ul>
-            <li>Beste frische saisonale Zutaten</li>
-            <li>Ausgewagene abwechlungsrecihe Gerichte</li>
-            <li>Sauberkeit</li>
-        </ul>
-    </div>
-    <div id="final-wort">
-        <h2>Wir freuen uns auf Ihren Besuch!</h2>
+            <div id="wichtig">
+                <h2>Das ist uns wichtig</h2>
+                <ul>
+                    <li>Beste frische saisonale Zutaten</li>
+                    <li>Ausgewagene abwechlungsrecihe Gerichte</li>
+                    <li>Sauberkeit</li>
+                </ul>
+            </div>
+            <div id="final-wort">
+                <h2>Wir freuen uns auf Ihren Besuch!</h2>
+            </div>
+        </div>
+        <div class="right-container"></div>
     </div>
     <hr>
 </body>

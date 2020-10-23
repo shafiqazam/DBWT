@@ -2,24 +2,27 @@ body {
     font-family: Verdana;
 }
 
-body div {
-    margin: 6% 15%;
+/*grid contaier*/
+.grid {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+
+.main-grid div {
+    margin: 5% auto;
 }
 
 /* Navbar */
 
-.nav-bar {
-    padding-left: 4%;
-}
-
 .nav-bar a {
-    margin-left: 2%;
+    margin-right: 2%;
     color: turquoise;
 }
 /*hauptbild*/
 
 #hauptbild {
     border: black 1px solid;
+    margin-left: 0;
     width: 54%;
     height: 200px;
 }
@@ -66,13 +69,13 @@ td {
 .three-question {
     display: flex;
     flex-direction: row;
-    padding-left: 0;
+    margin-left: 0;
 }
 
 .form-req {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: left;
     margin-right: 30px;
 }
 
@@ -126,7 +129,8 @@ td {
     display: inline-block;
     text-align: center;
     padding: 0 20px;
-}
-#footer li:nth-child(odd) {
     border-right: 2px solid black;
+}
+#footer li:last-child {
+    border-right: none;
 }
