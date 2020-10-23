@@ -43,43 +43,25 @@ Cache-Control - Steuerung des Caches für die einzelne Direktiven
 -Header der Anfrage
 
 POST /formdata.html HTTP/1.1
-( POST Methode -> etwas zum Server schicken ) 
 Host: localhost:63342
-( Adresse des Hosts )
 Connection: keep-alive
-( Verbindung sollte nach der Antwort nicht abgebaut werden ) 
 Content-Length: 104
-( Länge des Inhalts )
 Cache-Control: max-age=0
-( Wie lange ist das Cache gültig ) 
 Origin: http://localhost:63342
-( Quelle der Anfrage ) 
 Upgrade-Insecure-Requests: 1
-( Sichere und verschlüsselte Antworten sind bevorzugt )
 DNT: 1
-( Do Not Track - Bitte nicht Tracken )
 Content-Type: application/x-www-form-urlencoded
-( Typ des Inhalts )
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36 Edg/86.0.622.43
-( Verwendete Programme des Benutzers )
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-( Format der akzeptierten Dateien )
 Sec-Fetch-Site: same-origin
-( Beziehung zwischen der Quelle der Anfrage und der Quelle der Resourcen ) 
 Sec-Fetch-Mode: navigate
-( Art der Anfrage )
 Sec-Fetch-User: ?1
-( Weist darauf hin, ob der Navigation-Anfrage vom Benutzer activiert wird )
 Sec-Fetch-Dest: document
-( Wie diese Dateien benutzt werden sollen )
 Referer: http://localhost:63342/E-Mensa%20Werbeseite/Beispiele/Beispiele_HTML/newsletteranmeldung.html?_ijt=8kj6344iku8vb13f1hdf6ug2cv
-( Adresse von der vorher besuchten Webseite - Webseite, woher die Anfrage kommt )
 Accept-Encoding: gzip, deflate, br
-( Welche Encoding-Methoden werden bevozugt )
 Accept-Language: en-US,en;q=0.9
-( Bevorzugte Sprache )
 Cookie: Phpstorm-f62ebc3=44ae3280-b2ef-4fa5-9d96-94cfae6b4d46
-( Cookie-wert)
+
 
 - Body der Anfrage
 
@@ -92,3 +74,13 @@ email: shafiq@example.com
 nachricht-intervall: 2
 datenschutz: on
 
+Aufgabe 7
+
+m1_ersteSeite.html
+Warning - Es sollte ein <lang>-Tag geben
+
+
+m1_8a_text.html
+
+Error - Es gibt kein <title>-Tag im Header
+Warning - Es sollte ein <lang> geben
