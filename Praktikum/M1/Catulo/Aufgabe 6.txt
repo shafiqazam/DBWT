@@ -1,0 +1,63 @@
+1)
+Anfrage:
+
+GET /hochschule/bibliothek/ HTTP/1.1
+Host: www.fh-aachen.de
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: _pk_id.4.f7b6=870e7a535efc6db4.1602856920.3.1602863192.1602863192.; _pk_ref.4.f7b6=%5B%22%22%2C%22%22%2C1602863192%2C%22http%3A%2F%2Flocalhost%3A63342%2FE-Mensa%20Werbeseite%2Fbeispiele%2Fm1_4d_links.html%3F_ijt%3Dlvsamg35sl68n4vl3blvakkksn%22%5D; _pk_ses.4.f7b6=1
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+Antwort:
+
+HTTP/1.1 200 OK
+Server: fhacDVZ/1.4.3 (fhacOS/MintFeet)
+Date: Fri, 16 Oct 2020 15:46:42 GMT
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Language: de
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000
+
+
+
+HTTP/1.1 - verwendet Version 1.1 des HTTP Protokolls
+200 OK - Anfrage erfolgreich
+Connect: keep-alive - persistente Verbindung
+Content-Language: de - Sprache des Inhalts ist Deutsch
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0 - Nutzer benutz Firefox auf einem Windows 10 64-bit Rechner
+
+
+
+2)
+Header:
+
+POST /E-Mensa%20Werbeseite/beispiele/formdata.html HTTP/1.1								:Post methode, schreibt in formdata.hmtl rein, benutzt http verion 1.1
+Host: localhost:63342													:Host des formulars ist localhost auf port 63342
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0				:nutzer benutz firefox version 80 auf einem 64 bit windows 10 rechner
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8					:akzeptierte dateiformate (mime types), q-faktor 0,8
+Accept-Language: de,en-US;q=0.7,en;q=0.3										:akzeptierte sprachen deutsch und amerikanisches englisch, q-faktor 0,7, britisches englisch q-faktor 0,3
+Accept-Encoding: gzip, deflate												:gültige kompressionsverfahren
+Content-Type: application/x-www-form-urlencoded										:medientyp, der im body gesendet wird
+Content-Length: 100													:body länge: 100bytes
+Origin: http://localhost:63342												:sender, localhost port 63342
+Connection: keep-alive													:persistente verbindung
+Referer: http://localhost:63342/E-Mensa%20Werbeseite/beispiele/m1_5_newsletter.html?_ijt=a0c09ipauida8kcvbi6pfn3kdt	:url der ursprünglichen addresse
+Cookie: Phpstorm-8d1a7936=49c0ff13-7f0e-4931-b98c-80967714812a								:cookie
+Upgrade-Insecure-Requests: 1												:benutze https (verschlüsselte verbindung)
+
+
+Body:
+{
+	"Anrede": "Herr",
+	"vname": "Max",
+	"nname": "Mustermann",
+	"email": "max@mustermann.de",
+	"notificationinterval": "2",
+	"read_eula": "on"
+}
