@@ -21,32 +21,18 @@ function noWinnerYear($famousMeals) {
     $year = new SplFixedArray(21);
 
     foreach ($famousMeals as $index => $item) {
-        if (is_array($famousMeals[$index]['winner']))   // falls winner ist ein Array
+        if (is_array($famousMeals[$index]['winner']))   // falls winner ein Array ist
         {
             for ($j =0; $j < count($famousMeals[$index]['winner']); $j++) {
-                if ($famousMeals[$index]['winner'][$j] > 2009)
-                {
                     $yearStr = (string)($famousMeals[$index]['winner'][$j]);
-                    $year[$yearStr[2].$yearStr[3]] = true;
-                }
-                else {
-                    $yearStr = (string)($famousMeals[$index]['winner'][$j]);
-                    $year[$yearStr[3]] = true;
-                }
+                    $year[(int)($yearStr[2].$yearStr[3])] = true;
             }
         }
         else {
-            if ($famousMeals[$index]['winner'] > 2009)
-            {
                 $yearStr = (string)($famousMeals[$index]['winner']);
-                $year[$yearStr[2].$yearStr[3]] = true;
-            }
-            else {
-                $yearStr = (string)($famousMeals[$index]['winner']);
-                $year[$yearStr[3]] = true;
+                $year[(int)($yearStr[2].$yearStr[3])] = true;
             }
         }
-    }
     echo "Jahre, die keine Gewinner haben sind: ";
     foreach ($year as $index => $boo) {
         if ($index < 10 && $year[$index] != true) {
