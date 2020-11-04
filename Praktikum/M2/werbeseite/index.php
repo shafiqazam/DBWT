@@ -50,7 +50,10 @@ function checkEmail() {
 }
 
 function checkEingabe() {
-    if (checkName()== false)
+    if (!isset($_GET['user']) && !isset($_GET['email']) && !isset($_GET['language']) && !isset($_GET['datenschutz'])) {
+        return;
+    }
+     if (checkName()== false)
     {
         echo '<p style = "color: red">Name kann nicht leer sein'.'<br>';
     }
@@ -105,10 +108,7 @@ function StrEdit()
         <div id="left"></div>
         <div id="center">
             <div id="banner">
-                <?php
-                foreach ($picFile as $index => $key)
-                    echo '<img src="./img/'.$picFile[$index].'" alt="Photo of food">';
-                ?>
+                <img src="" alt="Banner">
             </div>
             <div id="Ankündigungen">
                 <h2>Bald gibt es Essen auch online ;)</h2>
@@ -120,6 +120,13 @@ function StrEdit()
                     labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
                     et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
+            </div>
+
+            <div class="dish-overview">
+                <?php
+                foreach ($picFile as $index => $key)
+                    echo '<img src="./img/'.$picFile[$index].'" alt="Photo of food">';
+                ?>
             </div>
             <div id="Speisekarte">
                 <h2>Köstlichkeiten, die Sie erwarten</h2>

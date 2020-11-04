@@ -5,6 +5,9 @@
 -->
 
 <?php
+
+date_default_timezone_set("Europe/Berlin");
+
 $file = fopen('accesslog.txt','a');
 
 fwrite($file, date("d.m.Y")." ".date("H:i:s\n"));

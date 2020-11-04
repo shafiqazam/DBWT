@@ -55,7 +55,8 @@ $spracheen = array(
         "allergene" => "Allergies",
         "stern" => "Stars",
         "insgesamt" => "Total",
-        "zeige_beschreibung" => "Show description"
+        "zeige_beschreibung" => "Show description",
+        "autor" => "Author"
 );
 
 $sprachede = array(
@@ -64,7 +65,8 @@ $sprachede = array(
     "allergene" => "Allergene",
     "stern" => "Stern",
     "insgesamt" => "Insgesamt",
-    "zeige_beschreibung" => "Zeige Beschreibung"
+    "zeige_beschreibung" => "Zeige Beschreibung",
+    "autor" => "Autor"
 
 );
 
@@ -193,7 +195,7 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
             <tr>
                 <td>Text</td>
                 <td><?php echo ${"sprache".$_SESSION['lang']}["stern"];  ?></td>
-                <td class=rating_author>Author</td>
+                <td class=rating_author><?php echo ${"sprache".$_SESSION['lang']}["autor"];  ?></td>
             </tr>
             </thead>
             <tbody>
