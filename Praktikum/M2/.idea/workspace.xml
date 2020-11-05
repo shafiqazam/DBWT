@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b23df1bd-d61e-41ad-b6a6-e18925e7f5c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/accesslog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/accesslog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal/meal.php" beforeDir="false" afterPath="$PROJECT_DIR$/meal/meal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dossier M2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dossier M2.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/index-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index-stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index.php" afterDir="false" />
     </list>
@@ -131,6 +129,8 @@
       <workItem from="1604343100961" duration="1052000" />
       <workItem from="1604488298475" duration="49000" />
       <workItem from="1604497602866" duration="376000" />
+      <workItem from="1604591655787" duration="608000" />
+      <workItem from="1604604353227" duration="1130000" />
     </task>
     <servers />
   </component>

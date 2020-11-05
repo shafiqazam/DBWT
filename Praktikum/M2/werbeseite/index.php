@@ -8,19 +8,24 @@
 $meals = array(
     '0' => [ 'name' => 'Rindfleisch mit Bambus, Kaiserschoten und rotem Paprika, dazu Mie Nudeln',
         'preis-intern' => "3.50",
-        'preis-extern' => "6.20"
+        'preis-extern' => "6.20",
+        'bild' =>  "Rindfleish mit Bambus.jpg"
     ],
     '1' => [ 'name' => 'Spinatrisotto mit kleinen Samosateigecken und gemischter Salat',
         'preis-intern' => "3.50",
-        'preis-extern' => "6.20"
+        'preis-extern' => "6.20",
+        'bild' =>  "Spinatrisotto.jpg"
     ],
     '2' => [ 'name' => 'Pizza mit Thunfisch',
         'preis-intern' => "4.00",
-        'preis-extern' => "7.50"
+        'preis-extern' => "7.50",
+        'bild' =>  "thunfisch-pizza.jpg"
+
     ],
     '3' => [ 'name' => 'Lachsfillet',
         'preis-intern' => "3.50",
-        'preis-extern' => "8.00"
+        'preis-extern' => "8.00",
+        'bild' =>  "Lachsfillet.jpg"
     ]
 );
 
@@ -123,10 +128,10 @@ function StrEdit()
             </div>
 
             <div class="dish-overview">
-                <?php
-                foreach ($picFile as $index => $key)
-                    echo '<img src="./img/'.$picFile[$index].'" alt="Photo of food">';
-                ?>
+<!--                --><?php
+//                foreach ($picFile as $index => $key)
+//                    echo '<img src="./img/'.$picFile[$index].'" alt="Photo of food">';
+//                ?>
             </div>
             <div id="Speisekarte">
                 <h2>Köstlichkeiten, die Sie erwarten</h2>
@@ -136,6 +141,7 @@ function StrEdit()
                         <th></th>
                         <th>Preis intern</th>
                         <th>Preis extern</th>
+                        <th>Bild</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -145,6 +151,7 @@ function StrEdit()
                         echo "<td>" . $meals[$index]['name'] . "</td>";
                         echo "<td>" . $meals[$index]['preis-intern'] . "</td>";
                         echo "<td>" . $meals[$index]['preis-extern'] . "</td>";
+                        echo "<td>" . '<img src="./img/'.$meals[$index]['bild'].'" alt="Photo of food">'. "</td>";
                         echo "</tr>";
                     }
                     ?>
@@ -154,6 +161,8 @@ function StrEdit()
                         <th>...</th>
                         <th>...</th>
                         <th>...</th>
+                        <th>...</th>
+
                     </tr>
                     </tfoot>
                 </table>

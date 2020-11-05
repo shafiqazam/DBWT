@@ -42,6 +42,10 @@ td:first-child { text-align:left ; border-left: thin solid black; }
 
 td:last-child { border-right: thin solid black; }
 
+table img  {
+    height: 200px; width: 200px; border-radius: 50px;
+}
+
 #Statistik ul { text-align: center; font-weight: bold; font-size: large; }
 
 #Statistik ul li { display: inline; padding: 0 1em; margin: 0 auto; }
