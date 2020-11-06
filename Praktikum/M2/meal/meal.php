@@ -41,7 +41,9 @@ $spracheen = array(
         "stern" => "Stars",
         "insgesamt" => "Total",
         "zeige_beschreibung" => "Show description",
-        "autor" => "Author"
+        "autor" => "Author",
+        "deutsch" => "German",
+        "englisch" => "English"
 );
 
 $sprachede = array(
@@ -51,7 +53,9 @@ $sprachede = array(
     "stern" => "Stern",
     "insgesamt" => "Insgesamt",
     "zeige_beschreibung" => "Zeige Beschreibung",
-    "autor" => "Autor"
+    "autor" => "Autor",
+    "deutsch" => "Deutsch",
+    "englisch" => "Englisch"
 
 );
 
@@ -152,8 +156,8 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
     </head>
     <body>
         <nav>
-                <a href="meal.php?lang=en">English</a>
-                <a href="meal.php?lang=de">Deutsch</a>
+                <a href="meal.php?lang=en"><?php echo ${"sprache".$_SESSION['lang']}["englisch"];  ?></a>
+                <a href="meal.php?lang=de"><?php echo ${"sprache".$_SESSION['lang']}["deutsch"];  ?></a>
         </nav>
         <h1><?php echo ${"sprache".$_SESSION['lang']}["gericht"];  ?>: <?php echo  $meal['name']." ( ".$meal['price_intern']." )"; ?></h1>
         <p><?php if ($_SESSION['show_description'] == "1")
@@ -170,7 +174,7 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
             <input type="checkbox" name="show_description" id="show_description" value="1"
             <?php if ($_SESSION['show_description'] == "1") echo checked?>
             >
-            <label for="show_description"> <?php ${"sprache".$_SESSION['lang']}["zeige_beschreibung"] ?></label> <br>
+            <label for="show_description"> <?php echo ${"sprache".$_SESSION['lang']}["zeige_beschreibung"];  ?></label> <br>
             <label for="search_text">Filter:</label>
             <input id="search_text" type="text" name="search_text" value="<?php echo $_GET[GET_PARAM_SEARCH_TEXT]; ?>">
             <input type="submit" value="Suchen">
