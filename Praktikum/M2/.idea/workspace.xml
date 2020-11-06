@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b23df1bd-d61e-41ad-b6a6-e18925e7f5c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dossier M2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dossier M2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/index-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index-stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meal/meal.php" beforeDir="false" afterPath="$PROJECT_DIR$/meal/meal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/daten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/daten.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +92,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="PHP Built-in Web Server.E_Mensa_Seite" />
       <item itemvalue="PHP Built-in Web Server.ErstersPHP" />
       <item itemvalue="PHP Built-in Web Server.MealPHP" />
       <item itemvalue="PHP Built-in Web Server.m2_4a" />
       <item itemvalue="PHP Built-in Web Server.m2_4b" />
       <item itemvalue="PHP Built-in Web Server.m2_4c" />
       <item itemvalue="PHP Built-in Web Server.m2_4e" />
-      <item itemvalue="PHP Built-in Web Server.E_Mensa_Seite" />
       <item itemvalue="PHP Script.m2_4d_array.php" />
     </list>
     <recent_temporary>
@@ -131,6 +131,9 @@
       <workItem from="1604497602866" duration="376000" />
       <workItem from="1604591655787" duration="608000" />
       <workItem from="1604604353227" duration="1130000" />
+      <workItem from="1604612776374" duration="937000" />
+      <workItem from="1604655528544" duration="23000" />
+      <workItem from="1604669963296" duration="1078000" />
     </task>
     <servers />
   </component>
@@ -163,29 +166,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604000507933" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603999717301">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604655545944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603999717301" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1604497984384">
+    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604655545944" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1604671064008">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604497984384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604236838112" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1604497984384">
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1604671064008">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604497984384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
     <state width="1493" height="262" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604236838111" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1604497984384">
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1604671064008">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604497984384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
     <state width="1493" height="262" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604236838111" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1604497984384">
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1604671064008">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604497984384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
     <state width="1493" height="262" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604236838111" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604236838105">
       <screen x="0" y="0" width="1536" height="824" />

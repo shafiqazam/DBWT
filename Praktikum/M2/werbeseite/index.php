@@ -29,11 +29,6 @@ $meals = array(
     ]
 );
 
-$picFile = array(
-    "Rindfleish mit Bambus.jpg","Spinatrisotto.jpg","thunfisch-pizza.jpg","Lachsfillet.jpg",
-);
-
-
 
 function checkName() {
     if (strlen(trim($_POST['user'])) == 0)
@@ -55,7 +50,7 @@ function checkEmail() {
 }
 
 function checkEingabe() {
-    if (!isset($_GET['user']) && !isset($_GET['email']) && !isset($_GET['language']) && !isset($_GET['datenschutz'])) {
+    if (!isset($_POST['user']) && !isset($_POST['email']) && !isset($_POST['language']) && !isset($_POST['datenschutz'])) {
         return;
     }
      if (checkName()== false)
@@ -126,13 +121,6 @@ function StrEdit()
                     et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </div>
-
-            <div class="dish-overview">
-<!--                --><?php
-//                foreach ($picFile as $index => $key)
-//                    echo '<img src="./img/'.$picFile[$index].'" alt="Photo of food">';
-//                ?>
-            </div>
             <div id="Speisekarte">
                 <h2>Köstlichkeiten, die Sie erwarten</h2>
                 <table>
@@ -180,7 +168,7 @@ function StrEdit()
             </div>
             <div id="form">
                 <h2>Interesse geweckt? Wir informieren Sie!</h2>
-                <form id="newsletteranmeldung" action="index.php" method="post">
+                <form id="newsletteranmeldung" action="index.php#form" method="post">
                     <label for="name">Ihr Name:<br>
                         <input type="text" id="name" name="user" placeholder="Vorname" required>
                     </label>

@@ -5,21 +5,6 @@ session_start();
 const GET_PARAM_MIN_STARS = 'search_min_stars';
 const GET_PARAM_SEARCH_TEXT = 'search_text';
 
-//const GET_PARAM_SHOW_DESC = 'show_description';
-
-//if (!isset($_GET['show_description'])) {
-//    $_SESSION['show_description'] = "1";  // default case
-//}
-//else if (isset($_GET['show_description']) && empty($_GET['show_description']))
-//{
-//    $_SESSION['show_description'] = "0";
-//}
-//else if (isset($_GET['show_description']) && !empty($_GET['show_description']))
-//{
-//    if ($_GET['show_description'] == "1") {
-//        $_SESSION['show_description'] = "1";
-//    }
-//}
 
 if (!isset($_SESSION['show_description']))
 {
