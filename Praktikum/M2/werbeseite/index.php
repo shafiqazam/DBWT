@@ -57,7 +57,6 @@ function checkEingabe() {
     {
         echo '<p style = "color: red">Name kann nicht leer sein'.'<br>';
     }
-
     if (checkEmail()==false)
     {
         echo '<p style = "color: red">Email entspricht nicht den Vorgaben'.'<br>';

@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23df1bd-d61e-41ad-b6a6-e18925e7f5c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/logo-FH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/index-stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/meals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/newletteranmeldungen.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dossier M2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dossier M2.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meal/meal.php" beforeDir="false" afterPath="$PROJECT_DIR$/meal/meal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,7 +76,7 @@
       <recent name="D:\Studium Informatik\SEM 3\DBWT\Praktikum\M2" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.E_Mensa_Seite">
+  <component name="RunManager" selected="PHP Built-in Web Server.Meilstein2">
     <configuration name="E_Mensa_Seite" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="9050">
       <method v="2" />
     </configuration>
@@ -72,6 +84,9 @@
       <method v="2" />
     </configuration>
     <configuration name="MealPHP" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="9050">
+      <method v="2" />
+    </configuration>
+    <configuration name="Meilstein2" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/INF_A_Catulo_Azam_2" port="8000">
       <method v="2" />
     </configuration>
     <configuration name="m2_4a" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="9050">
@@ -91,6 +106,7 @@
     </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.E_Mensa_Seite" />
+      <item itemvalue="PHP Built-in Web Server.Meilstein2" />
       <item itemvalue="PHP Built-in Web Server.ErstersPHP" />
       <item itemvalue="PHP Built-in Web Server.MealPHP" />
       <item itemvalue="PHP Built-in Web Server.m2_4a" />
@@ -133,6 +149,16 @@
       <workItem from="1604655528544" duration="23000" />
       <workItem from="1604669963296" duration="1078000" />
       <workItem from="1604671176633" duration="259000" />
+      <workItem from="1604671582847" duration="5743000" />
+      <workItem from="1604693650413" duration="214000" />
+      <workItem from="1604953939425" duration="594000" />
+      <workItem from="1605001240544" duration="3203000" />
+      <workItem from="1605175669268" duration="89000" />
+      <workItem from="1605176016988" duration="3774000" />
+      <workItem from="1605264973989" duration="17000" />
+      <workItem from="1605456638814" duration="3000" />
+      <workItem from="1605466850331" duration="603000" />
+      <workItem from="1605510751721" duration="24000" />
     </task>
     <servers />
   </component>
@@ -156,39 +182,39 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="74" key="#PHP/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603806480313" />
-    <state x="-1614" y="78" width="998" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604236441806">
-      <screen x="-1920" y="0" width="1536" height="824" />
+    <state x="306" y="73" width="998" height="751" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605001689171">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1614" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604236441806" />
-    <state x="306" y="78" width="998" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603996988568" />
+    <state x="306" y="73" width="998" height="751" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1605001689171" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604000507933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604000507933" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604655545944">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605510773066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604655545944" />
-    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1604671437455">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1605510773066" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1605006171400">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
-    <state width="1493" height="155" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604671437455" />
-    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1604671437454">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1605006171400" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1605001692792" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1605006171400">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
-    <state width="1493" height="155" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604671437454" />
-    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1604671437454">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1605006171400" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1605001692791" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1605006171400">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
-    <state width="1493" height="155" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604671437454" />
-    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1604671437454">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1605006171400" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1605001692791" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1605006171400">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1604671064008" />
-    <state width="1493" height="155" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1604671437454" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1605006171400" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1605001692792" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604236838105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

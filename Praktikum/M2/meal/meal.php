@@ -56,7 +56,6 @@ $sprachede = array(
     "autor" => "Autor",
     "deutsch" => "Deutsch",
     "englisch" => "Englisch"
-
 );
 
 /**
@@ -199,8 +198,6 @@ function calcMeanStars($ratings) : float { // : float gibt an, dass der Rückgab
             </tbody>
         </table>
     <h3><?php echo ${"sprache".$_SESSION['lang']}["allergene"];  ?>  :</h3>
-        <?php
-            echo $meal['name']; ?>
         <ul>
             <?php foreach ($meal['allergens'] as $value) {
                 echo "<li>$allergens[$value]</li>";
