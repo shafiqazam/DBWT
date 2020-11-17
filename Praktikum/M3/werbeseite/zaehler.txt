@@ -1,1 +1,1 @@
-a:3:{s:7:"Besuche";i:172;s:7:"Speisen";N;s:26:"Anmeldungen zum Newsletter";i:3;}
+a:3:{s:7:"Besuche";i:179;s:7:"Speisen";N;s:26:"Anmeldungen zum Newsletter";i:6;}

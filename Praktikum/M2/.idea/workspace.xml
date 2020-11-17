@@ -20,20 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23df1bd-d61e-41ad-b6a6-e18925e7f5c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/logo-FH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/img/meal3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/index-stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/meals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M3/werbeseite/newletteranmeldungen.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dossier M2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dossier M2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal/meal.php" beforeDir="false" afterPath="$PROJECT_DIR$/meal/meal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3/DossierM3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../M3/DossierM3.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3/werbeseite/newletteranmeldungen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../M3/werbeseite/newletteranmeldungen.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3/werbeseite/nl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/../M3/werbeseite/nl-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3/werbeseite/zaehler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../M3/werbeseite/zaehler.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,6 +151,7 @@
       <workItem from="1605456638814" duration="3000" />
       <workItem from="1605466850331" duration="603000" />
       <workItem from="1605510751721" duration="24000" />
+      <workItem from="1605606529826" duration="776000" />
     </task>
     <servers />
   </component>
