@@ -23,8 +23,7 @@
       <change beforePath="$PROJECT_DIR$/../M2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DossierM3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/DossierM3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/newletteranmeldungen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/newletteranmeldungen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/nl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/nl-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite/zaehler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/zaehler.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="CSV-Groovy.csv.groovy" />
     <property name="database.data.extractors.current.id" value="CSV-Groovy.csv.groovy" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,6 +107,7 @@
       <workItem from="1605520937418" duration="10278000" />
       <workItem from="1605560281930" duration="3072000" />
       <workItem from="1605606128915" duration="1166000" />
+      <workItem from="1605730320400" duration="1673000" />
     </task>
     <servers />
   </component>

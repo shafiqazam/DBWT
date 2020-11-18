@@ -108,6 +108,7 @@ function displayMeal(&$allergen_array,$gericht) {
         return $gericht_anzahl;
 }
 
+// Allergens Array von dargestellten Gerichten erstellen
 function allergenConnect(&$allergen_array,$row) {
     $allergens_code = explode(',',$row[3]);
     $allergens_name = explode(',',$row[4]);
@@ -119,6 +120,7 @@ function allergenConnect(&$allergen_array,$row) {
     ksort($allergen_array);
 }
 
+// Statistiken Array
 $zaehler= unserialize(file_get_contents('./zaehler.txt'));
 $zaehler['Besuche'] += 1;
 $zaehler['Anmeldungen zum Newsletter'] = count(file("newletteranmeldungen.txt"));
