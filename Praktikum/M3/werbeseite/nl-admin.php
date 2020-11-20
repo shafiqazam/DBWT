@@ -17,7 +17,10 @@ function listeDarstellen($dateiName) {
     while (!feof($fn)) {
         $result = fgets($fn);
         $arrLine = trimInArray($arrDaten,$result);
-        array_push($arrDaten,$arrLine);
+        //var_dump($arrLine);
+        if ($arrLine[0] != "") {
+            array_push($arrDaten,$arrLine);
+        }
     }
     // Sortieren des Arrays
     $sort = [];
@@ -31,6 +34,7 @@ function listeDarstellen($dateiName) {
 }
 
 function trimInArray($arr,$line) {
+    $line = trim($line);
     // trim and insert data in array
     return explode(';',$line);
 }
