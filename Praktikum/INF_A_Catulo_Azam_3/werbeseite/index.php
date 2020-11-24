@@ -5,6 +5,7 @@
 -->
 <?php
 
+
 // Init der Datenbank
 $link = mysqli_connect("localhost", "root", "12345", "emensawerbeseite");
 
@@ -126,6 +127,8 @@ $zaehler['Besuche'] += 1;
 $zaehler['Anmeldungen zum Newsletter'] = count(file("newletteranmeldungen.txt"));
 file_put_contents('./zaehler.txt',serialize($zaehler));
 
+
+
 ?>
 
 
@@ -133,12 +136,12 @@ file_put_contents('./zaehler.txt',serialize($zaehler));
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <?php
-    if(isset($_POST['datenschutz']))
-    {
-    echo "<meta http-equiv='refresh' content='0'>";
-    }
-    ?>
+<!--  --><?php
+//    if(isset($_POST['datenschutz']))
+//    {
+//        echo "<meta http-equiv='refresh' content='0'>";
+//    }
+//    ?>
     <meta charset="UTF-8">
     <title>Ihre E-Mensa</title>
     <link rel="stylesheet" href="index-stylesheet.css" media="screen">
@@ -218,7 +221,7 @@ file_put_contents('./zaehler.txt',serialize($zaehler));
                     <ul>
                         <li><?php echo (int)$zaehler['Besuche']++; ?></li>
                         <li>Besuche</li>
-                        <li><?php 
+                        <li><?php
                             $zaehler['Anmeldungen zum Newsletter'] = count(file("newletteranmeldungen.txt"));
                             echo (int)$zaehler['Anmeldungen zum Newsletter']; ?></li>
                         <li>Anmeldungen zum Newsletter</li>
@@ -228,7 +231,7 @@ file_put_contents('./zaehler.txt',serialize($zaehler));
                 </div>
                 <div id="form">
                     <h2>Interesse geweckt? Wir informieren Sie!</h2>
-                    <form id="newsletteranmeldung" method="post" action="index.php"><!--action="index.php"-->
+                    <form id="newsletteranmeldung" method="post"><!--action="index.php"-->
                         <label for="name">Ihr Name:<br>
                             <input type="text" id="name" name="user" placeholder="Vorname" required>
                         </label>
