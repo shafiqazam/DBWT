@@ -5,8 +5,6 @@
 -->
 <?php
 
-
-
 // Init der Datenbank
 $link = mysqli_connect("localhost", "root", "12345", "emensawerbeseite");
 
@@ -220,7 +218,7 @@ file_put_contents('./zaehler.txt',serialize($zaehler));
                     <ul>
                         <li><?php echo (int)$zaehler['Besuche']++; ?></li>
                         <li>Besuche</li>
-                        <li><?php //$zaehler= unserialize(file_get_contents('./zaehler.txt'));
+                        <li><?php 
                             $zaehler['Anmeldungen zum Newsletter'] = count(file("newletteranmeldungen.txt"));
                             echo (int)$zaehler['Anmeldungen zum Newsletter']; ?></li>
                         <li>Anmeldungen zum Newsletter</li>

@@ -1,0 +1,6 @@
+shafiq; shafiq@example.com; de; true
+marco; marco@example.com; de; true
+ijo; ijo@example.com; de; true
+zyk; abc@example.com; de; true
+ali; dua@gmail.com; de; true
+try; try@yahoo.com; de; true
