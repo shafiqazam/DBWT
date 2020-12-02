@@ -177,3 +177,4 @@ FROM gericht g
 right join gericht_hat_allergen gha on g.id = gha.gericht_id
 join allergen a on gha.code = a.code
 GROUP BY g.name;
+postsposts

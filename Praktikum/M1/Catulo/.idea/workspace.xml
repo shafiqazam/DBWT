@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6767462-9a9d-4a84-b634-ce027558b833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Vorlesung/PHP_Beispiel/php_intro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/newletteranmeldungen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/newletteranmeldungen.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/nl-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/nl-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/zaehler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../INF_A_Catulo_Azam_3/werbeseite/zaehler.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../M3/Datenbank.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../M3/Datenbank.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,7 @@
       <workItem from="1603631052431" duration="1647000" />
       <workItem from="1603790524396" duration="2501000" />
       <workItem from="1603806315358" duration="29000" />
+      <workItem from="1606687470703" duration="792000" />
     </task>
     <servers />
   </component>
