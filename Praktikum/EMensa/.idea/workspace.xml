@@ -20,39 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5962d788-bf2c-4090-a0d0-664f4dd1b86c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/M3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/dataSources/14da272c-d2d2-4c8f-aa68-f31a21bafa8a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/dataSources/14da272c-d2d2-4c8f-aa68-f31a21bafa8a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/Datenbank.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/DossierM3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/ERD M3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/beispiele/m3_8a_testdatenbank.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/connection_example.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/img/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/img/logo-FH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/img/meal0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/img/meal1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/img/meal2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/img/meal3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/index-stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/meals.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/newletteranmeldungen.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/nl-admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite/zaehler.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/werbeseite_daten.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../INF_A_Catulo_Azam_3/~$ssierM3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M1/Catulo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M1/Catulo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M3/Datenbank.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../M3/Datenbank.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,6 +198,7 @@
       <workItem from="1606758720677" duration="1891000" />
       <workItem from="1606823243662" duration="4242000" />
       <workItem from="1606841508174" duration="47000" />
+      <workItem from="1606917472487" duration="772000" />
     </task>
     <servers />
   </component>
@@ -246,6 +215,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606664803249">

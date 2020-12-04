@@ -18,24 +18,28 @@ else {
 
 if ($submitbutton)
 {
-    if($_POST['name'] == "")
-    {
-        $name = 'anonym';
-    } else {
-        $name = mysqli_real_escape_string($link, $_POST['name']);
-    }
-
     // Eingabemaskierung
     $email = mysqli_real_escape_string($link, $_POST['email']);
     $gerichtsname = mysqli_real_escape_string($link, $_POST['gerichtsname']);
     $beschreibung = mysqli_real_escape_string($link, $_POST['beschreibung']);
 
-    // Prepared statement
-    // Fuege Daten in die Datenbank
-    $sql = "insert into ersteller (name, email) VALUES (?,?)";
-    $stmt = mysqli_prepare($link, $sql);
-    $stmt->bind_param("ss", $name, $email);
-    $stmt->execute();
+    if($_POST['name'] == "")
+    {
+       // $name = 'anonym';
+        $sql = "insert into ersteller (email) VALUES (?)";
+        $stmt = mysqli_prepare($link, $sql);
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+    } else {
+        $name = mysqli_real_escape_string($link, $_POST['name']);
+        $sql = "insert into ersteller (name, email) VALUES (?,?)";
+        $stmt = mysqli_prepare($link, $sql);
+        $stmt->bind_param("ss", $name, $email);
+        $stmt->execute();
+    }
+
+//  Prepared statement
+//  Fuege Daten in die Datenbank
 
     $sql = "insert into wunschgericht (namen, beschreibung, erstellungsdatum) VALUES (?, ?, CURDATE())";
     $stmt = mysqli_prepare($link, $sql);
