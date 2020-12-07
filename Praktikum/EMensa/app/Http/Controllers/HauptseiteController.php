@@ -29,11 +29,24 @@ class HauptseiteController extends Controller
                 $allergens_code_name[$code] = $allergen->name;
             }
         }
-        //dump($allergens_code_name);
+        //dd($gerichts);
+        $zaehler =  $this->getStatistics();
+        $zaehler['Speisen'] = sizeof($gerichts);
 
         return view('hauptseite', [
             'gerichts' => $gerichts,
-            'allergens_code' => $allergens_code_name
+            'allergens_code' => $allergens_code_name,
+            'zaehler' => $zaehler
         ]);
+    }
+
+    public function getStatistics() {
+            $zaehler = unserialize(file_get_contents(storage_path("app/public/zaehler.txt")));
+
+            $zaehler['Besuche'] += 1;
+            $zaehler['Anmeldungen zum Newsletter'] = count(file(storage_path("app/public/newletteranmeldungen.txt")));
+
+            file_put_contents(storage_path("app/public/zaehler.txt"),serialize($zaehler));
+            return $zaehler;
     }
 }

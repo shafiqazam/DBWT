@@ -8,7 +8,7 @@
 @section('header')
     <div class="header">
         <div id="logo">
-            <img src="./img/E_Mensa_logo.jpg" alt="E-Mensa Logo">
+            <img src="./img/logoMensa.png" alt="E-Mensa Logo">
         </div>
         <div id="navigation">
             <ul>
@@ -27,7 +27,7 @@
         <div id="left"></div>
         <div id="center">
             <div id="banner">
-                <img src="./img/banner.jpg" alt="banner" width="500" height="500">
+                <img src="./img/Banner.jpg" alt="banner">
             </div>
             <div id="Ankündigungen">
                 <h2>Bald gibt es Essen auch online ;)</h2>
@@ -84,11 +84,11 @@
             <div id="Statistik">
                 <h2>E-Mensa in Zahlen</h2>
                 <ul>
-                    <li>X</li>
+                    <li>{{(int)$zaehler['Besuche']}}</li>
                     <li>Besuche</li>
-                    <li>Y</li>
+                    <li>{{(int)$zaehler['Anmeldungen zum Newsletter']}}</li>
                     <li>Anmeldungen zum Newsletter</li>
-                    <li>Z</li>
+                    <li>{{(int)$zaehler['Speisen']}}</li>
                     <li>Speisen</li>
                 </ul>
             </div>

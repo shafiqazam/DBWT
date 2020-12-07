@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5962d788-bf2c-4090-a0d0-664f4dd1b86c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HauptseiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HauptseiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/hauptseite.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hauptseite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/hauptseite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/hauptseite.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../M4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +164,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -172,7 +176,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studium Informatik\SEM 3\DBWT\Praktikum\EMensa\public\img" />
+      <recent name="D:\Studium Informatik\SEM 3\DBWT\Praktikum\EMensa\storage\app\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studium Informatik\SEM 3\DBWT\Praktikum\EMensa\public\img" />
       <recent name="C:\xampp\htdocs\EMensa\public" />
       <recent name="C:\xampp\htdocs\EMensa\resources\views" />
       <recent name="C:\xampp\htdocs\EMensa\resources\views\examples" />
@@ -199,6 +208,7 @@
       <workItem from="1606823243662" duration="4242000" />
       <workItem from="1606841508174" duration="47000" />
       <workItem from="1606917472487" duration="772000" />
+      <workItem from="1607337908140" duration="3227000" />
     </task>
     <servers />
   </component>
@@ -226,11 +236,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="503" y="214" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1606664075428" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606833024071">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607337913768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1606735014127" />
-    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1606833024071" />
+    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1607337913768" />
     <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1606836653487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
