@@ -27,6 +27,7 @@
 #banner {
     width: 1200px;
     height: 450px;
+    border: black 1px;
 }
 
 #banner img {
